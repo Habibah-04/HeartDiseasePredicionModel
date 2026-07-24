@@ -70,7 +70,7 @@ with c3:
     st.metric("Random Forest",f"{forest_acc*100:.2f}%")
 
 st.divider()
-st.subheader("Data Visulization")
+st.subheader("Data Visualization")
 tab1,tab2,tab3 = st.tabs(["Distribution","Relationship","Heatmap"])
 with tab1:
     c1,c2=st.columns(2)
