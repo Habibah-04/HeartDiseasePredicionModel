@@ -15,7 +15,7 @@ load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 
-df = pd.read_csv("dataset/heart.csv")
+df = pd.read_csv("heart.csv")
 
 x = df.drop("target", axis=1)
 y = df["target"]
