@@ -256,6 +256,6 @@ if st.button("Predict",use_container_width=True):
         - Balanced Diet
         - Drink Enough Water
         - Sleep 8 hrs daily
-        - Anual Health Checkup
+        - Annual Health Checkup
         """)
 
